@@ -36,7 +36,7 @@ body {
 
 /* Style the top navigation bar */
 .topnav {
-  padding-left: 100px;
+  padding-left: 120px;
   overflow: hidden;
   background-color: #8c1aff;
 }
@@ -62,7 +62,7 @@ body {
   color: #000000;
   background-color: #d9baf8;
   padding: 10px;
-  padding-left: 120px;
+  padding-left: 130px;
   /*height: 200px;  Should be removed. Only for demonstration */
 }
 
@@ -71,5 +71,5 @@ body {
   color: #717171;
   background-color: #f1f1f1;
   padding: 10px;
-  padding-left: 120px;
+  padding-left: 130px;
 }
