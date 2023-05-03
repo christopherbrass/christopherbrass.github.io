@@ -10,11 +10,11 @@ body {
 
 /* Style the side navigation */
 .sidenav {
-  height: 50%;
+  height: 100%;
   width: 120px;
-  position: fixed;
+  position: absolute;
   z-index: 1;
-  top: 0;
+  top: 1;
   left: 0;
   background-color: #111;
   overflow-x: hidden;
@@ -36,7 +36,7 @@ body {
 
 /* Style the top navigation bar */
 .topnav {
-  padding-left: 120px;
+  padding-left: 10px;
   overflow: hidden;
   background-color: #8c1aff;
 }
