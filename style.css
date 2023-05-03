@@ -53,7 +53,8 @@ body {
 
 /* Change color on hover */
 .topnav a:hover {
-  background-color: #c285ff;
+  /*background-color: #c285ff;*/
+  background-color: #1afffe;
   color: black;
 }
 
