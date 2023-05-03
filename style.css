@@ -55,7 +55,7 @@ body {
 .topnav a:hover {
   /*background-color: #c285ff;*/
   background-color: #1afffe;
-  color: black;
+  color: #000000;
 }
 
 /* Style the content */
