@@ -10,7 +10,7 @@ body {
 
 /* Style the side navigation */
 .sidenav {
-  height: auto;
+  height: 100%;
   width: 120px;
   position: absolute;
   z-index: 1;
