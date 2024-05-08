@@ -1,75 +1,152 @@
-* {
-  box-sizing: border-box;
-  font-family: Arial, Helvetica, sans-serif;
+/* CSS styles */
+
+:root {
+    --ranger-blue:#3b78ff;
+    --ranger-green:#16c60c;
+    --ranger-white:#f2f2f2;
+    --ranger-black:#0c0c0c;
 }
 
-body {
-  margin: 0;
-  font-family: Arial, Helvetica, sans-serif;
+html {background-color: var(--ranger-black)}
+
+.filePath {
+    list-style-type: none;
+    text-align: left;
+    vertical-align: top;
+    max-width: 100%;
+    /*border: 1px solid #73AD21;*/
+
+    font-size: 16px;
+    line-height: 16px;
+    font-family: "Lucida Console", Monaco, monospace;
+    font-weight: normal;
+    text-decoration: none;
+    font-style: normal;
+    font-variant: normal;
+    text-transform: none;
+    padding-left: 5px;
+    padding-right: 0px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    display: inline-block;
+    margin: 0px;
+}
+.filePath.host {
+    color: var(--ranger-green);
+}
+.filePath.folder {
+    color: var(--ranger-blue);
+}
+.filePath.file {
+    color: var(--ranger-white);
 }
 
-/* Style the side navigation */
-.sidenav {
-  height: auto;
-  width: 120px;
-  position: absolute;
-  z-index: 1;
-  top: 38.4px;
-  left: 0;
-  background-color: #111;
-  overflow-x: hidden;
+
+.fileLayer {
+    list-style-type: none;
+    text-align: left;
+    vertical-align: top;
+    max-width: 50%;
+    /*border: 1px solid #73AD21;*/
+
+    color: var(--ranger-white);
+    font-size: 16px;
+    line-height: 16px;
+    font-family: "Lucida Console", Monaco, monospace;
+    font-weight: normal;
+    text-decoration: none;
+    font-style: normal;
+    font-variant: normal;
+    text-transform: none;
+    padding: 5px;
+    display: inline-block;
+    margin: 0px;
 }
 
-/* Side navigation links */
-.sidenav a {
-  color: white;
-  padding: 10px;
-  text-decoration: none;
-  display: block;
+
+.rangerButtonBlue {
+    color: var(--ranger-blue);
+    font-size: 16px;
+    line-height: 16px;
+    font-family: "Lucida Console", Monaco, monospace;
+    font-weight: normal;
+    text-decoration: none;
+    font-style: normal;
+    font-variant: normal;
+    text-transform: none;
+    background: var(--ranger-black);
+    padding: 5px;
+    display: inline-block;
+    margin: 0px;
+}
+.rangerButtonBlue:hover {
+    color: var(--ranger-black);
+    background: var(--ranger-blue);
+}
+.rangerButtonBlue:active {
+    color: var(--ranger-blue);
+    background: var(--ranger-black);
+}
+.rangerButtonBlue.active {
+    color: var(--ranger-black);
+    background: var(--ranger-blue);
 }
 
-/* Change color on hover */
-.sidenav a:hover {
-  background-color: #ddd;
-  color: black;
+
+.rangerButtonGreen {
+    color: var(--ranger-green);
+    font-size: 16px;
+    line-height: 16px;
+    font-family: "Lucida Console", Monaco, monospace;
+    font-weight: normal;
+    text-decoration: none;
+    font-style: normal;
+    font-variant: normal;
+    text-transform: none;
+    background: var(--ranger-black);
+    padding: 5px;
+    display: inline-block;
+    margin: 0px;
+}
+.rangerButtonGreen:hover {
+    color: var(--ranger-black);
+    background: var(--ranger-green);
+}
+.rangerButtonGreen:active {
+    color: var(--ranger-green);
+    background: var(--ranger-black);
+}
+.rangerButtonGreen.active {
+    color: var(--ranger-black);
+    background: var(--ranger-green);
 }
 
-/* Style the top navigation bar */
-.topnav {
-  /*padding-left: 10px;*/
-  overflow: hidden;
-  background-color: #8c1aff;
+
+.rangerButtonWhite {
+    color: var(--ranger-white);
+    font-size: 16px;
+    line-height: 16px;
+    font-family: "Lucida Console", Monaco, monospace;
+    font-weight: normal;
+    text-decoration: none;
+    font-style: normal;
+    font-variant: normal;
+    text-transform: none;
+    background: var(--ranger-black);
+    padding: 5px;
+    display: inline-block;
+    margin: 0px;
+}
+.rangerButtonWhite:hover {
+    color: var(--ranger-black);
+    background: var(--ranger-white);
+}
+.rangerButtonWhite:active {
+    color: var(--ranger-white);
+    background: var(--ranger-black);
+}
+.rangerButtonWhite.active {
+    color: var(--ranger-black);
+    background: var(--ranger-white);
 }
 
-/* Style the topnav links */
-.topnav a {
-  float: left;
-  display: block;
-  color: #f2f2f2;
-  text-align: center;
-  padding: 10px 10px;
-  text-decoration: none;
-}
-
-/* Change color on hover */
-.topnav a:hover {
-  /*background-color: #c285ff;*/
-  background-color: #1afffe;
-  color: #000000;
-}
-
-/* Style the content */
-.content {
-  color: #000000;
-  background-color: #d9baf8;
-  padding: 10px;
-  padding-left: 130px;
-}
-
-/* Style the footer */
-.footer {
-  color: #dcdcdc;
-  background-color: #f1f1f100;
-  padding: 5px;
-  padding-left: 130px;
-}
