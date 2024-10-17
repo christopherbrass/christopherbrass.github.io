@@ -1,0 +1,152 @@
+/* CSS styles */
+
+:root {
+    --ranger-blue:#3b78ff;
+    --ranger-green:#16c60c;
+    --ranger-white:#f2f2f2;
+    --ranger-black:#0c0c0c;
+}
+
+html {background-color: var(--ranger-black)}
+
+.filePath {
+    list-style-type: none;
+    text-align: left;
+    vertical-align: top;
+    max-width: 100%;
+    /*border: 1px solid #73AD21;*/
+
+    font-size: 16px;
+    line-height: 16px;
+    font-family: "Lucida Console", Monaco, monospace;
+    font-weight: normal;
+    text-decoration: none;
+    font-style: normal;
+    font-variant: normal;
+    text-transform: none;
+    padding-left: 5px;
+    padding-right: 0px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    display: inline-block;
+    margin: 0px;
+}
+.filePath.host {
+    color: var(--ranger-green);
+}
+.filePath.folder {
+    color: var(--ranger-blue);
+}
+.filePath.file {
+    color: var(--ranger-white);
+}
+
+
+.fileLayer {
+    list-style-type: none;
+    text-align: left;
+    vertical-align: top;
+    max-width: 50%;
+    /*border: 1px solid #73AD21;*/
+
+    color: var(--ranger-white);
+    font-size: 16px;
+    line-height: 16px;
+    font-family: "Lucida Console", Monaco, monospace;
+    font-weight: normal;
+    text-decoration: none;
+    font-style: normal;
+    font-variant: normal;
+    text-transform: none;
+    padding: 5px;
+    display: inline-block;
+    margin: 0px;
+}
+
+
+.rangerButtonBlue {
+    color: var(--ranger-blue);
+    font-size: 16px;
+    line-height: 16px;
+    font-family: "Lucida Console", Monaco, monospace;
+    font-weight: normal;
+    text-decoration: none;
+    font-style: normal;
+    font-variant: normal;
+    text-transform: none;
+    background: var(--ranger-black);
+    padding: 5px;
+    display: inline-block;
+    margin: 0px;
+}
+.rangerButtonBlue:hover {
+    color: var(--ranger-black);
+    background: var(--ranger-blue);
+}
+.rangerButtonBlue:active {
+    color: var(--ranger-blue);
+    background: var(--ranger-black);
+}
+.rangerButtonBlue.active {
+    color: var(--ranger-black);
+    background: var(--ranger-blue);
+}
+
+
+.rangerButtonGreen {
+    color: var(--ranger-green);
+    font-size: 16px;
+    line-height: 16px;
+    font-family: "Lucida Console", Monaco, monospace;
+    font-weight: normal;
+    text-decoration: none;
+    font-style: normal;
+    font-variant: normal;
+    text-transform: none;
+    background: var(--ranger-black);
+    padding: 5px;
+    display: inline-block;
+    margin: 0px;
+}
+.rangerButtonGreen:hover {
+    color: var(--ranger-black);
+    background: var(--ranger-green);
+}
+.rangerButtonGreen:active {
+    color: var(--ranger-green);
+    background: var(--ranger-black);
+}
+.rangerButtonGreen.active {
+    color: var(--ranger-black);
+    background: var(--ranger-green);
+}
+
+
+.rangerButtonWhite {
+    color: var(--ranger-white);
+    font-size: 16px;
+    line-height: 16px;
+    font-family: "Lucida Console", Monaco, monospace;
+    font-weight: normal;
+    text-decoration: none;
+    font-style: normal;
+    font-variant: normal;
+    text-transform: none;
+    background: var(--ranger-black);
+    padding: 5px;
+    display: inline-block;
+    margin: 0px;
+}
+.rangerButtonWhite:hover {
+    color: var(--ranger-black);
+    background: var(--ranger-white);
+}
+.rangerButtonWhite:active {
+    color: var(--ranger-white);
+    background: var(--ranger-black);
+}
+.rangerButtonWhite.active {
+    color: var(--ranger-black);
+    background: var(--ranger-white);
+}
+

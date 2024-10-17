@@ -1,1 +1,7 @@
-3
+6
+
+TODO:
+- delete css/style_ranger.css and outer index.html and watch.html
+- import html into main from v3?
+- delete or clean up test, red, green
+- do something with toot
